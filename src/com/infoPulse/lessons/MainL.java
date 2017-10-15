@@ -10,7 +10,7 @@ public class MainL {
         ArrayList<Payment> payments = new ArrayList<>();
 
 
-        // Deserialization ata of Payments from file "payment.ser"
+        // Deserialization data of Payments from file "payment.ser"
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream("payment.ser")))
         {
             payments = (ArrayList<Payment>) in.readObject();
