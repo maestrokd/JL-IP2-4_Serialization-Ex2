@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class MainL {
 
-    //
+    
     public static void main(String[] args) {
         ArrayList<Payment> payments = new ArrayList<>();
 
